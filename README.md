@@ -1,21 +1,12 @@
-# World Happiness ETL Project
-
-## Project Proposal
-Extract 2015 & 2020 World Happiness data from Kaggle.com, Transform csv files into two clean dataframes, 
-Load dataframes directly from pandas into PostgreSQL and MongoDB. 
+This ETL Project consists of: Extracting 2015 & 2020 World Happiness data from Kaggle.com, transforming csv files into two clean dataframes, 
+and loading dataframes directly from pandas into PostgreSQL and MongoDB. 
   
-  ### Team Members:
-    - Zac Cheatle
-    - Adam Mcvey
-    - Heather Wright
-    - Shelly Fischer
-  
-  #### Tools Used:
-  - Pandas
-    - SQL Alchemy
-    - Pymongo
-  - MongoDB
-  - PostgreSQL
+#### Tools Used:
+- Pandas
+- SQL Alchemy
+- Pymongo
+- MongoDB
+- PostgreSQL
 
 ## Extract
 Imported 2015 and 2020 world happiness csv files from Kaggle.com into Pandas.
@@ -45,5 +36,5 @@ Imported 2015 and 2020 world happiness csv files from Kaggle.com into Pandas.
   3. Included a try and except condition to verify database connection and data upload was successful for both datasets.
 
 ## Insights
-An imortant aspect of completing this project was deciding which type of database would be best suited; SQL or NoSQL to store our data. 
+An important aspect of completing this project was deciding which type of database would be best suited; SQL or NoSQL to store our data. 
 Considering there are only two (unrelated) data tables involved, it makes more sense to use MongoDB here than a relational database like SQL. 
